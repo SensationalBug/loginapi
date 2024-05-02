@@ -1,5 +1,5 @@
-export class UserDto {
-  id: string;
-  username: string;
-  password: string;
+export enum UserRole {
+  ADMIN = 'admin',
+  OPERATOR = 'operator',
+  CLIENT = 'client',
 }
